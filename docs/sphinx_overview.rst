@@ -25,5 +25,26 @@ _____________________________________________
 - Create document automatically based on the source code & annotations
 - Using a certain annotation format
 
-.. image:: _static/sphinx_autodoc.png
-    :align: center
+
+Source code
+
+.. code-block:: python
+
+    def vmlModule_fuctionB(argA, argB) :
+    """
+    This function is vmlModule function B. Result is multiplication of input two arguments.
+
+    Args:
+        argA: This is argument A.
+
+        argB: This is argument B.
+
+    Returns:
+        argA*argB. Much more difficult than function A!
+    """
+    return argA*argB
+
+Render result
+
+.. autofunction:: vmlModule.vmlModuleA.vmlModule_fuctionB
+

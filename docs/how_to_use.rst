@@ -9,4 +9,5 @@ How to use Read the Docs
    autodoc
    build_online
    korean_document
+   etc
 
